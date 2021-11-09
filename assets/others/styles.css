@@ -1,0 +1,142 @@
+.food_menu_topper {
+    background: url(../img/foodMenu/bg.jpg);
+    background-size: cover;
+    position: relative;
+    padding-top: 90px;
+}
+.food_menu_topper:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: block;
+    background: rgba(0, 0, 0, .65);
+    z-index: 0;
+}
+.food_menu_title, .food_menu_title2 {
+    color: #fff;
+    position: relative;
+}
+.food_menu_title {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.food_menu_title2 {
+    display: inline-block;
+}
+.food_menu_title2:after, .food_menu_title2:before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    display: block;
+    height: 2px;
+    background: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.food_menu_title2:before {
+    left: -120px;
+}
+.food_menu_title2:after {
+    right: -120px;
+}
+.single_item .action_part {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+}
+.menu-tab-nav {
+    background: rgb(46 46 46/0.65);
+}
+.menu_area .sect_title h1 {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+.menu_area .card-header {
+    padding: 10px 15px;
+}
+.menu_area .single_item {
+    border-bottom: 1px dashed #ddd;
+    margin-bottom: 15px;
+}
+.menu_area .single_item .item_img img {
+    border: 1px solid #e7272d;
+    padding: 5px;
+}
+.menu_area .item_details .simple_btn {
+    font-size: 13px;
+    padding: 0 10px;
+    line-height: 30px;
+}
+.menu_area .item_details .simple_btn:hover, .menu_area .item_details .simple_btn:focus {
+    border: 2px solid #212121;
+    color: #fff;
+}
+.menu_area .item_details .item_title {
+    font-size: 21px;
+    font-weight: 500;
+}
+.menu-tab-nav .nav-pills {
+    margin-bottom: 80px;
+    border-bottom: 4px solid #e7272d;
+}
+.menu-tab-nav .nav-pills .nav-item {
+    width: 20%;
+    text-align: center;
+}
+.menu-tab-nav .nav-pills .nav-link {
+    padding: 30px 35px;
+    border-radius: 0;
+    position: relative;
+}
+.menu-tab-nav .nav-pills .nav-link:before {
+    content: '';
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%);
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 18px 20px 0;
+    transition-duration: .1s;
+    border-color: #e7272d transparent transparent transparent;
+}
+.menu-tab-nav .nav-pills .nav-link.active:before {
+    opacity: 1;
+    top: 100%}
+.menu-tab-nav .nav-pills .nav-link h6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.menu-tab-nav .nav-pills .nav-link.active {
+    background-color: #e7272d;
+}
+.menu_area .item_info h4, .menu_area .item_info p, .menu_area .item_details p {
+    margin: 0;
+}
+.menu_area .item_info h6 {
+    font-weight: 500;
+    font-size: 14px;
+}
+.menu_area .sidebar .form-control {
+    width: calc(100% - 42px);
+    border-radius: 0;
+}
+.menu_area .sidebar .form-control:focus {
+    border: 1px solid #e7272d;
+}
+.menu_area .sidebar .btn-success {
+    border-radius: 0;
+    background-color: #e7272d;
+    border-color: #e7272d;
+}

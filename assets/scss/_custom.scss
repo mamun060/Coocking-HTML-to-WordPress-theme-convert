@@ -1,0 +1,395 @@
+input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select {
+    height: 50px;
+    padding: 5px 2px!important;
+}
+
+
+/*****************************
+* Page - Cart
+*****************************/
+.cart_submit {
+    text-align: right;
+    padding: 12px;
+}
+
+.coupon_code {
+    border: 1px solid #ededed;
+    margin-top: 60px;
+}
+.coupon_code h3, .coupon_code .h3 {
+    color: #ffffff;
+    line-height: 36px;
+    padding: 5px 15px;
+    background: #333;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.coupon_inner {
+    padding: 10px 20px 25px;
+}
+.coupon_inner p {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.coupon_inner input {
+    border: 1px solid #ededed;
+    height: 42px;
+    background: none;
+    padding: 0 20px;
+    margin-right: 20px;
+    font-size: 12px;
+    color: #333;
+    width: 175px;
+}
+.coupon_inner a {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 10px;
+    border-radius: 3px;
+}
+
+.cart_subtotal {
+    display: flex;
+    justify-content: space-between;
+}
+.cart_subtotal p {
+    font-weight: 600;
+    font-size: 14px;
+}
+.cart_subtotal p span {
+    margin-right: 30px;
+}
+.cart_subtotal .cart_amount {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.checkout_btn {
+    text-align: right;
+}
+.checkout_btn .btn {
+    display: inline-block;
+    font-weight: 700;
+}
+
+
+/*****************************
+* Page - Checkout
+*****************************/
+.user-actions {
+    margin-bottom: 20px;
+}
+.user-actions h3, .user-actions .h3 {
+    font-size: 13px;
+    font-weight: 400;
+    background-color: #f7f6f7;
+    padding: 15px 10px;
+    border-top: 3px solid #b19361;
+    margin-bottom: 0;
+}
+.user-actions h3 a, .user-actions .h3 a {
+    color: #b19361;
+}
+
+.checkout_info {
+    border: 1px solid #ededed;
+    margin-top: 25px;
+    padding: 20px 30px;
+}
+.checkout_info p {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.form_group {
+    margin-bottom: 20px;
+}
+.form_group input[type=text],
+.form_group input[type=password] {
+    width: 350px !important;
+}
+.form_group .btn {
+    margin-right: 20px;
+}
+
+.form_group.group_3 {
+    display: flex;
+    align-items: center;
+}
+
+.checkout_form h3, .checkout_form .h3 {
+    font-size: 16px;
+    line-height: 30px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    color: #FFF;
+    background: #24262b;
+    font-weight: 500;
+}
+
+.checkout_coupon input[type=text] {
+    background: none;
+    border: 1px solid #ededed;
+    width: 200px;
+    height: 45px;
+    font-size: 12px;
+    padding: 0 20px;
+    color: #777;
+}
+
+.checkout_coupon .btn {
+    margin-left: 20px;
+}
+
+.country_option {
+    width: 100%;
+}
+.country_option .list {
+    height: 150px;
+    overflow-y: scroll;
+}
+
+.order-notes {
+    margin-bottom: 53px;
+}
+@media (min-width: 768px) {
+    .order-notes {
+        margin-bottom: 0;
+    }
+}
+.order-notes label {
+    line-height: 13px;
+}
+.order-notes textarea {
+    border: 1px solid #ededed;
+    border-radius: 0;
+    height: 100px;
+    max-width: 100%;
+    padding: 20px 20px;
+    background: none;
+    font-size: 13px;
+    resize: none;
+    line-height: 1.6;
+    width: 100%;
+    color: #777;
+    outline: none;
+}
+
+.order_table {
+    margin-bottom: 35px;
+}
+.order_table table thead tr th {
+    min-width: 50%;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    
+}
+.order_table table tbody tr td {
+    min-width: 50%;
+    text-align: left;
+    padding: 15px 30px;
+    border-bottom: 1px solid #ddd;
+    color: #000;
+}
+.order_table table tfoot tr th {
+    min-width: 50%;
+    text-align: left;
+    padding: 15px 30px;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    color: #000;
+}
+.order_table table tfoot tr td {
+    min-width: 50%;
+    text-align: left;
+    padding: 15px 30px;
+    border-bottom: 1px solid #ddd;
+}
+/*******************
+* custom field size
+********************/
+
+input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select {
+    height: 50px!important;
+    padding: 0 20px;
+}
+
+textarea {
+    padding: 0px!important;
+}
+ul#gform_fields_1 {
+    list-style: none!important;
+}
+/***********************
+* Testy menu styling 
+************************/
+.custom-tb {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.food_menu_topper {
+    background: url(../images/bg.jpg);
+    background-size: cover;
+    position: relative;
+    padding-top: 90px;
+}
+.food_menu_topper:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: block;
+    background: rgba(0, 0, 0, .65);
+    z-index: 0;
+}
+.food_menu_title, .food_menu_title2 {
+    color: #fff;
+    position: relative;
+}
+.food_menu_title {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.food_menu_title2 {
+    display: inline-block;
+}
+.food_menu_title2:after, .food_menu_title2:before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    display: block;
+    height: 2px;
+    background: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.food_menu_title2:before {
+    left: -120px;
+}
+.food_menu_title2:after {
+    right: -120px;
+}
+.single_item .action_part {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+}
+.menu-tab-nav {
+    background: #333;
+}
+.menu_area .sect_title h1 {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+.menu_area .card-header {
+    padding: 10px 15px;
+}
+.menu_area .single_item {
+    border-bottom: 1px dashed #ddd;
+    margin-bottom: 15px;
+}
+.menu_area .single_item .item_img img {
+    border: 1px solid #e7272d;
+    padding: 5px;
+}
+.menu_area .item_details .simple_btn {
+    font-size: 13px;
+    padding: 0 10px;
+    line-height: 30px;
+}
+.menu_area .item_details .simple_btn:hover, .menu_area .item_details .simple_btn:focus {
+    border: 2px solid #212121;
+    color: #fff;
+}
+.menu_area .item_details .item_title {
+    font-size: 21px;
+    font-weight: 500;
+}
+.menu-tab-nav .nav-pills {
+    margin-bottom: 80px;
+    border-bottom: 4px solid #e7272d;
+}
+.menu-tab-nav .nav-pills .nav-item {
+    width: 20%;
+    text-align: center;
+}
+.menu-tab-nav .nav-pills .nav-link {
+    padding: 30px 35px;
+    border-radius: 0;
+    position: relative;
+}
+.menu-tab-nav .nav-pills .nav-link:before {
+    content: '';
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%);
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 18px 20px 0;
+    transition-duration: .1s;
+    border-color: #e7272d transparent transparent transparent;
+}
+.menu-tab-nav .nav-pills .nav-link.active:before {
+    opacity: 1;
+    top: 100%}
+.menu-tab-nav .nav-pills .nav-link h6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.menu-tab-nav .nav-pills .nav-link.active {
+    background-color: #e7272d;
+}
+.menu_area .item_info h4, .menu_area .item_info p, .menu_area .item_details p {
+    margin: 0;
+}
+.menu_area .item_info h6 {
+    font-weight: 500;
+    font-size: 14px;
+}
+.menu_area .sidebar .form-control {
+    width: calc(100% - 42px);
+    border-radius: 0;
+}
+.menu_area .sidebar .form-control:focus {
+    border: 1px solid #e7272d;
+}
+.menu_area .sidebar .btn-success {
+    border-radius: 0;
+    background-color: #e7272d;
+    border-color: #e7272d;
+}
+
+/***************
+* About image rotate
+****************/
+.img_part_rotate {
+    transition-duration: .3s;
+    position: relative;
+}
+.img_part_rotate img {
+    transition-duration: .4s;
+    animation: rotateAnim 30s infinite;
+}
+@keyframes rotateAnim {
+    50% {
+    transform: rotate(180deg);
+}
+}
